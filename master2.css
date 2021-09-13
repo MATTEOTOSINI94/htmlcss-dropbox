@@ -1,0 +1,39 @@
+
+.halfbar{
+    display: inline-block;    
+}
+.start{
+    width: 60%;
+}
+
+.end{
+    width: 39%;
+    text-align: right;
+}
+
+nav{
+    display: fixed;
+    padding: 10px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    color: black;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.button{
+    background-color: #0061FF;
+    color: white;
+}
+
+[class*="col"] {
+    float: left;
+}
+
