@@ -48,6 +48,7 @@ main{
   
 .col_3_9 {
     width: calc(100% / 9 * 3);
+    /* border: 1px solid black; */
     min-height: 300px;
    
   }
@@ -76,7 +77,7 @@ main{
 .box{
     position: relative;
     top: 60px;
-    overflow: hidden;
+    
 }
 
 .fas{
@@ -84,3 +85,7 @@ main{
     padding-top: 40px;
     
 }
+
+.dopocanc{
+    
+    min-height: 50px;}
