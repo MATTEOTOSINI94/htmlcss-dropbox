@@ -145,3 +145,68 @@ hr {
     border: 1px solid black;
 }
 
+.middlepan{
+    margin:auto
+}
+
+.lastpan{
+    margin-left: 15%;
+}
+
+.titlebox{
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.subtitlebox{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.enterprisebox{
+    line-height: 50px;
+   
+}
+
+.boxteam{
+    margin-top: 40px;
+    
+}
+
+.buttonenterprise{
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    right: 30px;
+    top: 27px;
+
+}
+
+.btn{
+    
+    height: 400px;
+}
+#img-rdms{
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+.newbutton{
+    text-decoration: none;
+    color:rgba(185, 185, 185, 0.699);
+    background-color:white;
+    border: 1px solid rgba(185, 185, 185, 0.699);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.margbox{
+    margin-top: 120px;
+}
