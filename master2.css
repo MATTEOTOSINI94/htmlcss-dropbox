@@ -54,8 +54,10 @@ ul li{
 
 .freetry{
     text-decoration: none;
-    line-height: 65px; 
-    color: black ;
+    line-height: 85px; 
+    color: white;
+    background-color: #0061FF;
+    padding: 15px;
 }
 
 .small{
@@ -78,66 +80,68 @@ ul li{
 .plab{
     padding-left: 20px;
 }
-/* .prop{
+
+.text-middle{
     text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.button-style{
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 10px;
+    line-height: 80px;
+}
+
+.btn-cnt{
+    text-align: center;
+}
+
+hr {
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+     
+}
+
+.text-link{
+    padding-bottom: 20px;
+}
+
+.newl li{
+    display: block;  
     padding-top: 20px;
-    padding-left: calc(50% - 37.6px);
-    font-size: 18px;
-    
-} */
+}
 
-/* .prodouct-descritpion{
-    
-    padding-left: 20px;
-} */
-
-/* .newl li{
-    display: block;
-    line-height: 40px;
-    
-} */
-/* .boxT{
-    padding-right: 40px;
-} */
-/* .newl li a{
+.newl li a{
     text-decoration: none;
     color: black;
     line-height: ;
     font-size: smaller;
-
-} */
+}
 
 .nel li a{
     padding:0;
-    line-height: 20px;
     color: white;
-
 }
 
-/* .button-dms{
-    line-height: 120px;
-    padding: 10px;
+.leftp{
     padding-left: 20px;
     padding-right: 20px;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    font-size: smaller;
-    
-} */
-/* .look{
-    line-height: 50px;
-} */
-/* .markline{
-    text-decoration: underline;
+    padding-top:20px;
+}
+.colv{
     color: blue;
+}
+.panel{
+    width: 85%;
+    min-height: 800px;
+    border: 1px solid black;
+}
 
-} */
-/* .sizep{
-    font-size: smaller;
-} */
-
-/* hr{
-    width: 50px;
-   
-} */

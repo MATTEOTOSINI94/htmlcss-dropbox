@@ -48,8 +48,8 @@ main{
   
 .col_3_9 {
     width: calc(100% / 9 * 3);
-    /* border: 1px solid black; */
-    min-height: 300px;
+    min-height: 400px;
+    
    
   }
   
@@ -63,7 +63,7 @@ main{
   
 .col_6_9 {
     width: calc(100% / 9 * 6);
-    min-height: 300px;
+    
    
   }
 
@@ -80,12 +80,6 @@ main{
     
 }
 
-.fas{
-    font-size: 30px;
-    padding-top: 40px;
-    
+.boxmid{
+  margin-top: 40px;
 }
-
-.dopocanc{
-    
-    min-height: 50px;}
