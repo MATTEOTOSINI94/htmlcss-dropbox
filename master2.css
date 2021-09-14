@@ -230,3 +230,14 @@ hr {
     padding-top: 50px;
     font-size: 40px;
 }
+
+.xlmarg{
+    margin-top: 300px;
+}
+
+.xlmarg h2{
+    padding-bottom: 60px;
+}
+.blight{
+    color: lightskyblue;
+}
