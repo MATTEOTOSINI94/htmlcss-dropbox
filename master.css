@@ -48,9 +48,8 @@ main{
   
 .col_3_9 {
     width: calc(100% / 9 * 3);
-    min-height: 400px;
+    min-height: 300px;
     
-   
   }
   
 .col_4_9 {
