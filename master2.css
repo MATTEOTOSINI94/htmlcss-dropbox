@@ -20,7 +20,7 @@ nav{
     background-color: white;
     z-index: 5;
 }
-ul li{
+nav ul li{
     display: inline-block;
     
 }
@@ -235,7 +235,7 @@ hr {
 }
 
 .xlmarg{
-    margin-top: 300px;
+    margin-top: 240px;
 }
 
 .xlmarg h2{
@@ -260,15 +260,14 @@ hr {
 }
 
 .sqr{
-    min-height: 300px;
-  
+    min-height: 350px; 
 }
 
 .square{
     float: left;
     width: 50%;
-    height: calc(30vw / 2 - 4px) ;
-    border: 1px solid;
+    height: calc(30vw / 2 ) ;
+    
     position: relative;
 }
 
@@ -292,4 +291,41 @@ hr {
     padding-top:60px;
     padding-right: 40px;
 
+}
+
+.free-button{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+    padding: 11px 40px;
+    position: relative;
+    top: 130px;
+    left: 160px;
+}
+
+.advice-text{
+position: relative;
+top: 120px;
+color: rgb(97, 8, 43);
+}
+
+.question-conateiner{
+    margin-top: 80px;
+}
+
+.question-conateiner li{
+    border-bottom: 1px solid black;
+    list-style: none;
+    position: relative;
+    
+}
+
+.question-conateiner h5{
+    padding: 20px 0;
+
+}
+.arrowdown{
+    position: absolute;
+    right: 30px;
 }
