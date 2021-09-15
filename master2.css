@@ -33,6 +33,10 @@ nav ul li{
     vertical-align: middle;
 }
 
+.halfbar ul li a:hover{
+color: #0061FF;
+}
+
 .halfbar ul li .button{
     background-color: #0061FF;
     color: white;
@@ -238,6 +242,13 @@ hr {
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    transition: 3s ease-in-out;
+}
+
+.newbutton:hover{
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
 }
 
 .margbox{
@@ -340,6 +351,13 @@ hr {
     position: relative;
     top: 130px;
     left: 160px;
+    transition: 3s ease-in-out;
+}
+
+.free-button:hover{
+    color:rgba(185, 185, 185, 0.699);
+    background-color:white;
+    border: 1px solid rgba(185, 185, 185, 0.699);
 }
 
 .advice-text{
@@ -373,6 +391,11 @@ color: rgb(97, 8, 43);
    
     display: inline-block;
     color: white;
+}
+
+.contact-box ul li:hover{
+     text-decoration: underline 1px white;
+     text-shadow: 1px  white;
 }
 
 .contact-box h5{
