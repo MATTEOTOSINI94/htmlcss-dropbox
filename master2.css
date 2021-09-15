@@ -36,6 +36,13 @@ nav ul li{
 .halfbar ul li .button{
     background-color: #0061FF;
     color: white;
+    transition: 2s ease-in-out;
+}
+
+.halfbar ul li .button:hover{
+    background-color: chartreuse;
+
+
 }
 
 [class*="col"] {
@@ -61,6 +68,12 @@ nav ul li{
     color: white;
     background-color: #0061FF;
     padding: 15px;
+    transition: all 3s ease-in-out;
+}
+
+.freetry:hover{
+    background-color: greenyellow;
+    box-shadow: 5px 5px;
 }
 
 .small{
@@ -100,6 +113,13 @@ nav ul li{
     background-color: #0061FF;
     padding: 10px;
     line-height: 80px;
+    transition: 2s ease-in-out;
+
+}
+
+.button-style:hover{
+    background-color: black;
+    border-radius: 10px;
 }
 
 .btn-cnt{
@@ -121,6 +141,9 @@ hr {
     display: block;  
     padding-top: 20px;
 }
+.halfbar ul li:hover{
+    color: chartreuse;
+}
 
 .newl li a{
     text-decoration: none;
@@ -128,6 +151,8 @@ hr {
     line-height: ;
     font-size: smaller;
 }
+
+
 
 .nel li a{
     padding:0;
@@ -188,7 +213,12 @@ hr {
     position: absolute;
     right: 30px;
     top: 27px;
+    transition: 3s ease-in-out;
+}
 
+.buttonenterprise:hover{
+    background-color: chartreuse;
+    box-shadow: 5px 5px;
 }
 
 .btn{
@@ -225,6 +255,8 @@ hr {
     object-fit: cover;
     text-align: center;
 }
+
+
 .dimension-img-box{
     width: 85%;
 }
@@ -232,6 +264,12 @@ hr {
 #arrowd{
     padding-top: 50px;
     font-size: 40px;
+    transition: 3s ease-in-out;
+}
+
+#arrowd:hover{
+    padding-top: 200px;
+    font-size: 80px;
 }
 
 .xlmarg{
