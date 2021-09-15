@@ -363,3 +363,12 @@ color: rgb(97, 8, 43);
 footer{
     margin-top:90px;
 }
+
+.question-item-answer{
+    display: none;
+    padding-bottom: 20px;
+}
+
+.question-conateiner:focus .question-item-answer{
+    display: block;
+}
