@@ -329,3 +329,37 @@ color: rgb(97, 8, 43);
     position: absolute;
     right: 30px;
 }
+.contact-box{
+    width: 20%;
+    min-height: 300px;
+   
+    display: inline-block;
+    color: white;
+}
+
+.contact-box h5{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+.contact-box ul li{
+    list-style: none;
+    padding: 6px 0;
+
+}
+.translate-box{
+ color: rgba(184, 184, 184, 0.712);
+
+}
+.translate-box p{
+    display: inline-block;
+    border-top: 1px solid grey;
+    padding-top: 65px;
+    padding-bottom: 30px;
+
+}
+
+footer{
+    margin-top:90px;
+}
